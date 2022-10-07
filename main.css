@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body>header {
+    background-color: gray;
+    padding: 16px 0;
+    color: aliceblue
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:20px;
+}
+
+header li {
+    display: inline
+}
+
+header li a {
+    color: aliceblue
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 200px;
+}
+
+.articles article {
+    width: 30%
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article a:hover {
+    text-decoration: underline
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section h2 {
+    font-size: 32px;
+}
+
+#esportes {
+    background-color: rgb(160, 255, 160)
+}
+
+#economy {
+    background-color: rgb(238, 238, 173);
+}
+
+#tecnologia {
+    background-color: rgb(168, 102, 3);
+}
+
+#entretenimento {
+    background-color: rgb(117, 119, 245);
+}
+
+.articles article a {
+    background-color: green;
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#economy .articles article a {
+    background-color: black;
+}
+
+#entretenimento .articles article a {
+    background-color: rgb(116, 84, 84);
+}
+
+#entretenimento .articles article p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#tecnologia .articles article a {
+    background-color: rgb(57, 116, 243);
+}
+
+#tecnologia .articles article p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+}
