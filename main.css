@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: beige;
+}
+
+.container input,
+header {
+    display: block;
+    margin: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300PX;
+    height: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300PX;
+    height: 40px;
+    font-weight: bold;
+    background-color: bisque;
+    cursor: pointer;
+    border: 2px solid rgb(156, 156, 156);
+}
+
+button:hover {
+    background-color: rgba(3, 248, 85, 0.705);
+    font-weight: bold;
+}
+
+.msgSucesso {
+    margin: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300PX;
+    height: 60px;
+    color:#fff;
+    font-size: larger;
+    font-weight: bolder;
+    background-color:rgb(1, 100, 67);
+    text-align: center;
+    display: none;
+}
+
+.msgNegativa {
+    margin: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300PX;
+    height: 60px;
+    color:#fff;
+    font-size: larger;
+    font-weight: bolder;
+    background-color:rgb(201, 30, 0);
+    text-align: center;
+    display: none;
+}

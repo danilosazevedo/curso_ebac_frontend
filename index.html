@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador Numérico</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Validador Numérico</h1>
+    </header>
+        <div class="container">
+            <form id="form-valid">
+                <input type="number" id="valueA" required placeholder="Valor de A">
+                <input type="number" id="valueB" required placeholder="Valor de B">
+                <button type="submit">Validar</button>
+            </form>
+        </div>
+        <div>
+            <p class="msgSucesso">
+                Seu formulário é VÁLIDO pois o valor <b>B</b> é MAIOR que <b>A</b>
+            </p>
+            <p class = "msgNegativa">
+                Seu formulário é INVÁLIDO pois o valor <b>B</b> é MENOR que <b>A</b>
+            </p>
+        </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
