@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{background-color: antiquewhite;
+}
+
+header{
+    margin: 8px;
+}
+
+form input{
+    margin: 8px;
+    height: 24px;
+}
+
+form button{
+    height: 24px;
+    cursor: pointer;
+}
+
+ul li{
+    margin: 8px;
+    font-size: large;
+    font-weight: bold;
+    list-style: none;
+}
+
+.container{
+    text-align: center;
+    margin-top: 100px;
+}
