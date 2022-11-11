@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px;
+    background-color:rgb(26, 8, 129);
+    color: white;
+}
+
+form{
+    border: 1px solid black;
+}
+
+form input{
+    display: block;
+    padding: 8px;
+    margin: 8px;
+    width: 480px;
+}
+
+form h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+}
+
+form button{
+    height: 32px;
+    width: 100px;
+    background-color: rgb(12, 99, 1);
+    color: #fff;
+    padding: 8px;
+    margin: 8px;
+    cursor:pointer;
+    border-radius: 8px;
+    border:none;
+    font-weight: bold;
+}
+
+.container{
+    display: block;
+    padding: 8px;
+    margin: 8px;
+    width: 100%;
+    max-width: 550px;
+}
